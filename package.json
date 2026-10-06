@@ -1,0 +1,30 @@
+{
+  "name": "agentic-learning",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@langfuse/openai": "^5.11.1",
+    "@langfuse/otel": "^5.11.1",
+    "@langfuse/tracing": "^5.11.1",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "@opentelemetry/sdk-node": "^0.222.0",
+    "dotenv": "^17.4.2",
+    "langfuse": "^3.39.2",
+    "openai": "^7.15.0",
+    "zod": "^4.6.5",
+    "zod-to-json-schema": "^3.25.2"
+  }
+}
